@@ -1,0 +1,130 @@
+
+
+.Container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.parent_nav {
+  height: 64px;
+  width: 100vw;
+  background-color: #212731;
+}
+
+.nav {
+  text-decoration: none;
+  color: #d1d6da;
+  float: right;
+  margin-right:10%; 
+  margin-top: 20px;
+}
+
+#input {
+  margin-left: 10%; 
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    float:none;
+    margin: 10px auto; 
+    text-align: center; 
+  } 
+
+  #input {
+    margin: 10px auto; 
+  }
+}
+
+.build_us {
+    color: #2C384A;
+    /* border: 2px solid; */
+    height:80%;
+    width:83%;
+}
+ #span {
+      /* it is in .build_us(div) */
+ position: relative;
+ right:23%;
+}
+
+#span1 {
+  /* it is in .build_us(div) */
+position: relative;
+right:18%;
+}
+
+#span2 {
+  /* it is in .build_us(div) */
+position: relative;
+left:16%;
+
+
+}
+
+.nav1 {
+  text-decoration: none;
+  color:#4B5665;
+   margin-left:7%;
+}
+#nav_cont {
+     position: relative;
+     right:9%;
+}
+.nav2 {
+  text-decoration: none;
+  color:#4B5665;
+   margin-left:7%;
+}
+.nav12 {
+  margin:1%;
+  position: relative;
+  right:16%;
+}
+#img1 {
+    
+    position: relative;
+    right:36%;
+    width:150px;
+    bottom: 20%;
+}
+.container1 {
+    width:90%;
+    height:50%;
+    /* border: 2px solid; */
+    
+}
+.p2 {
+   position: relative;
+    bottom:47%;
+}
+.container2 {
+  width:90%;
+  height:50%;
+  /* border: 2px solid; */
+  
+}
+.p3 {
+ position: relative;
+  bottom:47%;
+}
+.footer {
+   
+   height:30vh;
+   background-color: #212731;
+}
+#foot {
+   color: white;
+   margin-right: 20%;
+}
+.foot_div {
+  color: white;
+  position:absolute;
+  right:63%;
+}
+.foot_div1 {
+  color: white;
+  position:absolute;
+  right:40%;
+}
